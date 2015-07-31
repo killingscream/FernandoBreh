@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://ununsplash.imgix.net/photo-1428452788387-375d846a8ab4?fit=crop&fm=jpg&h=700&q=75&w=1050");
+  background-size: cover;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+      ul {
+         list-style-type: none;
+         text-align: center;
+         padding: 0;
+         overflow: hidden;
+      }
+      li{
+        display: inline-block;
+      }
+      a:link, a:visited {
+         display: inline-block;
+         width: 100px;
+         font-weight: bold;
+         color: #FFFFff ;
+         background-color: #4A21BF ;
+         text-align: center;
+         padding: 4px;
+         text-decoration: none;
+         text-transform: uppercase;
+         margin: 19px;
+         -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+          transition: 0.5s;
+      }
+      a:hover , a:active {
+         background-color: black;
+      }
+      .contestsbigbox{
+        border-radius:10px;
+        background-color: #4A21BF;
+        width: 700px;
+        margin: 76px auto;
+        padding: 30px;
+        border:10px solid #E0DEF5;
+      }
+      p, h1{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: white;
+      }

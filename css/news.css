@@ -1,0 +1,72 @@
+body {
+  background-image: url("http://www.arthurweill.fr/img/unsplash/images_1280/trvELSvNZoY_1280.jpg");
+   font-family: 'Open Sans Condensed', sans-serif;
+  }
+.box{
+  height: 600px;
+  width: 300px;
+  background-color: #4A21BF;
+  display: inline-block;
+  margin:40px;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+.grey{
+  background-color: grey;
+  width: 250px;
+  height:200px;
+}
+.bigbox{
+  text-align: center;
+}
+p, h1{
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFff;
+}
+ul {
+   list-style-type: none;
+   margin: 0 auto;
+   padding: 0;
+   overflow: hidden;
+   text-align: center;
+}
+li {
+   display: inline-block;
+}
+a:link, a:visited {
+   display: inline-block;
+   width: 100px;
+   font-weight: bold;
+   color: #FFFFff ;
+   background-color: #4A21BF ;
+   text-align: center;
+   padding: 4px;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin: 19px;
+   -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+ }
+a:hover , a:active {
+   background-color: black;
+ }
+    #grey1{
+    background-image: url("http://www.arthurweill.fr/img/unsplash/images_1280/c38fccbd_1280.jpg");
+    background-size: cover;
+    width: auto;
+    border-radius: 10px;
+      }
+    #grey2{
+      background-image: url("http://www.arthurweill.fr/img/unsplash/images_1280/tumblr_n10n5ygMJI1st5lhmo1_1280.jpg");
+       background-size: cover;
+       width: auto;
+       border-radius: 10px;
+       }
+    #grey3{
+        background-image: url("http://www.arthurweill.fr/img/unsplash/images_1280/z7R1rjT6RhmZdqWbM5hg_R0001139_1280.jpg");
+        background-size: cover;
+        width: auto;
+        border-radius: 10px;
+        }

@@ -1,0 +1,90 @@
+body {
+  background-image: url("https://unsplash.imgix.net/photo-1430132594682-16e1185b17c5?fit=crop&fm=jpg&h=700&q=75&w=1050");
+  background-size: cover;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+    h1{
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+    }
+      h2{
+        color: black;
+      }
+      ul {
+         list-style-type: none;
+         text-align: center;
+         margin-left: auto;
+         padding: 0;
+         overflow: hidden;
+      }
+      li{
+        display: inline-block;
+      }
+      #home-box {
+        position: relative;
+      }
+      a:link, a:visited {
+         display: inline-block;
+         width: 100px;
+         font-weight: bold;
+         color: #FFFFff ;
+         background-color: #4A21BF ;
+         text-align: center;
+         padding: 4px;
+         text-decoration: none;
+         text-transform: uppercase;
+         margin: 19px;
+         -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+          transition: 0.5s;
+      }
+      a:hover , a:active {
+         background-color: black;
+      }
+      #subtitle{
+        background-color:#4A21BF;
+        color:#ffffff;
+        letter-spacing:5px;
+        font-size:15px;
+        padding-top: 8px;
+      }
+      #subtitle2{
+      background-color:#4A21BF;
+      color:#ffffff;
+      letter-spacing:5px;
+      font-size:15px;
+      padding-bottom: 8px;
+    }
+    #subtitle3{
+      background-color:#4A21BF;
+      color:#ffffff;
+      padding-bottom: 8px;
+    }
+    #fernando{
+      margin-top:30px;
+      width:500px;
+      height:130px;
+      padding:20px;
+      border-radius:10px;
+      border:10px solid #4A21BF;
+      font-size:120%;
+      margin: 0 auto;
+      background-color: #E0DEF5;
+      text-align: center;
+    }
+    #home-content{
+      width:500px;
+      padding:20px;
+      border-radius:10px;
+      border:10px solid #4A21BF;
+      font-size:120%;
+      margin: 30px auto;
+      background-color: #E0DEF5;
+      text-align: center;
+    }
